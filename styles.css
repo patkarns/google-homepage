@@ -1,0 +1,134 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.center{
+  margin:  30.666665px 0 0 553.333334px;
+}
+
+.top {
+	width: 100%;
+  height: 100px;
+	position: relative;
+	display: inline-block;
+  padding: 10px 10px 10px 0px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 10px 10px;
+  margin: auto;
+}
+
+.button{
+  font-size: 14px;
+  margin: -100px 0 -40px  0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;
+  width: 140px;
+}
+
+.button input{
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #0564E1;
+  border-color: black;
+
+}
+
+.top a {
+	padding-left: 19px;
+	display: inline-block;
+	color: #000;
+	opacity: 0.75;
+	font-size: 13px;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.top a:hover{
+  text-decoration: underline;
+}
+
+.topright{
+  float: right;
+}
+
+.topleft {
+  float: left;
+}
+.bottom {
+	width: 100%;
+  height: 40px;
+  position:fixed;
+  bottom:0;
+  left: -10px;
+  padding: 0 10px 0 0;
+	display: inline-block;
+  background-color: #EFEFEF;
+}
+
+.bottom a {
+	padding-left: 19px;
+	display: inline-block;
+	color: #404040;
+	opacity: 0.75;
+	font-size: 13px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.bottom a:hover{
+  text-decoration: underline;
+}
+
+.botright{
+  float: right;
+}
+
+.botleft {
+  float: left;
+}
+.SearchBar{
+  overflow: hidden;
+  margin:  10.666665px 0 0 -60.333334px;
+}
+
+.SearchBar input{
+  height: 30px;
+  width: 480px;
+  font-size: 14px;
+}
+
+.buttons{
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+input[type=submit] {
+  border: none; /*rewriting standard style, it is necessary to be able to change the size*/
+  height: 40px;
+  width: 150px
+}
+
+.buttons input{
+  font-size: 14px;
+  color: dimgray;
+  background-color: #E8E7E7;
+}
+
+.buttons input:hover{
+  color: black;
+  border: 2px solid gray;
+
+}
